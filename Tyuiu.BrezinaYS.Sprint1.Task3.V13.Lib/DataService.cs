@@ -6,10 +6,10 @@ namespace Tyuiu.BrezinaYS.Sprint1.Task3.V13.Lib
     {
         public double MultiplyOfDigits(double number)
         {
-            double a = 345;
-            int a3 = (int)a % 10;
-            int a2 = ((int)a / 10) % 10;
-            int a1 = (int)a / 100;
+ 
+            int a3 = (int)number % 10;
+            int a2 = ((int)number / 10) % 10;
+            int a1 = (int)number / 100;
             return a1 * a2 * a3;
 
         }
